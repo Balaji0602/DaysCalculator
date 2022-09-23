@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Playfair+Display+SC:wght@700&family=Playfair+Display:ital,wght@1,600&family=Ubuntu&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans',sans-serif;
+}
+
+body{
+  background-color: #65ccb8;
+}
+td a{
+  text-decoration: none;
+  background-color: white;
+  font-size: 21px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 9px;
+  border-radius: 10px;
+  color: black;
+}
+
+td a:hover{
+  background-color: rgb(31, 22, 22);
+  color: white;
+  transition: 0.5s;
+}
+
+table{
+  position: absolute;
+  left: 15%;
+  top: 30%;
+}
+h4{
+  letter-spacing: 0.7px;
+  padding: 5px;
+}
+td{
+  width: 40%;
+  height: 20%;
+}
+
+.link {
+  text-align: center;
+}
+
+
+/* for calculate days page */
+
+
+h2.text-center{
+  left: 40%;
+  top: 25%;
+  position: absolute;
+}
+
+label.sd{
+  left: 32%;
+  top: 35%;
+  position: absolute;
+  padding: 10px;
+}
+label.ed{
+  left: 32%;
+  top: 45%;
+  position: absolute;
+  padding: 10px;
+}
+label.edd{
+  left: 32%;
+  top: 55%;
+  position: absolute;
+  padding: 10px;
+}
+label{
+  font-size: 20px;
+}
+input{
+  width: 20%;
+}
+
+input.sd{
+    left: 51%;
+    top: 35%;
+    position: absolute;
+    padding: 6px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000;
+    font-size: 16px;
+}
+
+input.ed{
+  left: 51%;
+    top: 45%;
+    position: absolute;
+    padding: 6px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000;
+    font-size: 16px;
+}
+
+select{
+  left: 51%;
+    top: 56%;
+    position: absolute;
+    padding: 6px;
+    width: 20%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 2px solid #000;
+}
+option{
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: 10vh;
+  padding: 10px;
+  letter-spacing: 0.9px;
+}
+
+button{
+  left: 39%;
+  top: 67%;
+  position: absolute;
+  padding: 6px;
+  width: 20%;
+  height: 7vh;
+  font-size: 17px;
+  background: transparent;
+  border: 2px solid black;
+  border-radius: 10px;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+button:hover{
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+  font-weight: bolder;
+}
+
+h2.result{
+  left: 37%;
+  top: 81%;
+  position: absolute;
+  background-color: white;
+  height: 6vh;
+  text-align: center;
+  padding: 30px;
+  padding-top: -10;
+  border: 2px solid black;
+  border-radius: 10px;  
+}
+
+h2.dc{
+  left: 40%;
+  top: 25%;
+  position: absolute;
+}
+
+label.strd{
+  left: 32%;
+  top: 35%;
+  position: absolute;
+  padding: 10px;
+}
+label.endd{
+  left: 32%;
+  top: 45%;
+  position: absolute;
+  padding: 10px;
+}
+
+input.strd{
+  left: 51%;
+  top: 35%;
+  position: absolute;
+  padding: 6px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #000;
+  font-size: 16px;
+}
+
+input.endd{
+left: 51%;
+  top: 45%;
+  position: absolute;
+  padding: 6px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #000;
+  font-size: 16px;
+}
+
+h2.result2{
+  left: 25%;
+    top: 74%;
+    position: absolute;
+    background-color: white;
+    height: 6vh;
+    text-align: center;
+    padding: 70px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+button.t2{
+  left: 39%;
+  top: 60%;
+  position: absolute;
+  padding: 6px;
+  width: 20%;
+  height: 7vh;
+  font-size: 17px;
+  background: transparent;
+  border: 2px solid black;
+  border-radius: 10px;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+button.t2:hover{
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+  font-weight: bolder;
+}
